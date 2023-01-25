@@ -1,3 +1,4 @@
+# Solution 1:
 num = int(input("Enter a number here: "))
 order = len(str(num))
 sum = 0
@@ -15,7 +16,7 @@ else:
     print('it is not an Armstrong number')
 
 
-# Armstrong number for an interval
+# Solution 2: Armstrong number for an interval
 lower = int(input("Enter the lower limit here:"))
 upper = int(input("Enter the upper limit here:"))
 
